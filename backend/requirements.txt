@@ -1,0 +1,4 @@
+FastAPI
+Uvicorn
+Pydantic
+python-dotenv
