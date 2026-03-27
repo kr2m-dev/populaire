@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>YouTube Processing Platform</title>
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Processing Platform</h1>
+        <form id="uploadForm">
+            <label for="cookies">Upload Cookies:</label>
+            <input type="file" id="cookies" name="cookies" accept="application/json">
+            <br>
+            <label for="youtubeUrl">YouTube URL:</label>
+            <input type="url" id="youtubeUrl" name="youtubeUrl" required>
+            <br>
+            <input type="submit" value="Upload">
+        </form>
+        <div id="workflow">
+            <h2>Manage Workflows</h2>
+            <button id="viralDetector">Run Viral Detector</button>
+            <button id="highlightExtraction">Extract Highlights</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
