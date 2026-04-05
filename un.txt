@@ -1,0 +1,44 @@
+yt-dlp --proxy http://veoetdka:4et82gbw1zoc@23.95.150.145:6114 \
+       --cookies cookies.txt \
+       --js-runtimes node \
+       --remote-components ejs:github \
+       -f "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]" \
+       -o "video.mp4" \
+       "https://youtu.be/9y5SUSAnHb4?si=lIwp0cdym3DrEGuQ"
+
+telecharger video sans le proxie valider
+
+
+\youtubeuploader.exe -secrets client_secret.json -filename "clip_07_55m00.mp4"  avoir un requesttoken
+
+
+./youtubeuploader -filename videoA.mp4 -title "Highlights Part 1" -privacy private 
+
+upload fichier 
+
+
+dos2unix video1.sh   
+
+convertir le fichier si Windows
+
+bash video1.sh video.mp4
+
+decouper la video 
+
+
+for i in $(seq -w 1 10); do
+  f=$(ls clip_${i}_*.mp4)
+  echo "file '$f'"
+done > listeA.txt
+
+créer liste A
+
+
+for i in $(seq -w 11 20); do
+  f=$(ls clip_${i}_*.mp4)
+  echo "file '$f'"
+done > listeB.txt
+
+créer liste B 
+
+
